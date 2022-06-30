@@ -8,9 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var session: Session
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+           
+                TabBarView()
+            if session.currentUser == nil {
+                Login()
+                     .background(LinearGradient(gradient: Gradient(colors: [.black, .gray]), startPoint: .top, endPoint: .bottom)
+                            .ignoresSafeArea(.all))
+            }
+        }
     }
 }
 

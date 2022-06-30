@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03C5A4B1A47F779206E3CA21 /* Pods_PerFormance_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4484D337E00C7639244117 /* Pods_PerFormance_WatchKit_App.framework */; };
+		69DA11A3296854FF23BD23EC /* Pods_PerFormance_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD0AEFBC04F81F80F858E00 /* Pods_PerFormance_WatchKit_Extension.framework */; };
 		811F7CC72723939900208A06 /* PerFormanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F7CC62723939900208A06 /* PerFormanceApp.swift */; };
 		811F7CC92723939900208A06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F7CC82723939900208A06 /* ContentView.swift */; };
 		811F7CCB2723939B00208A06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811F7CCA2723939B00208A06 /* Assets.xcassets */; };
@@ -21,6 +23,34 @@
 		811F7CEA2723939C00208A06 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F7CE92723939C00208A06 /* ComplicationController.swift */; };
 		811F7CEC2723939C00208A06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811F7CEB2723939C00208A06 /* Assets.xcassets */; };
 		811F7CEF2723939C00208A06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811F7CEE2723939C00208A06 /* Preview Assets.xcassets */; };
+		8128B4EC2723B84A002AEAE9 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8128B4EB2723B84A002AEAE9 /* VisualEffectBlur.swift */; };
+		8128B4EE2723B861002AEAE9 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8128B4ED2723B861002AEAE9 /* TabBarView.swift */; };
+		8128B4F12723E743002AEAE9 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8128B4F02723E743002AEAE9 /* FormView.swift */; };
+		8128B4F9272441A8002AEAE9 /* BodySkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8128B4F8272441A8002AEAE9 /* BodySkeleton.swift */; };
+		813A2F61272497240017460F /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F60272497240017460F /* Session.swift */; };
+		813A2F63272497FA0017460F /* StoreUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F62272497FA0017460F /* StoreUserDefaults.swift */; };
+		813A2F6527249B270017460F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 813A2F6427249B270017460F /* GoogleService-Info.plist */; };
+		813A2F6B27249FFB0017460F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F6A27249FFB0017460F /* Login.swift */; };
+		813A2F6D2724A26D0017460F /* ContentWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F6C2724A26D0017460F /* ContentWrapper.swift */; };
+		813A2F6F2724A2790017460F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F6E2724A2790017460F /* MenuView.swift */; };
+		813A2F712724A2860017460F /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F702724A2860017460F /* NavBar.swift */; };
+		813A2F732724B4520017460F /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F722724B4520017460F /* Stats.swift */; };
+		813A2F752724B4660017460F /* Wellness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F742724B4660017460F /* Wellness.swift */; };
+		813A2F782724D82E0017460F /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F772724D82E0017460F /* MenuButton.swift */; };
+		813A2F7C2724FFB60017460F /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F7B2724FFB60017460F /* Tabs.swift */; };
+		813A2F8527251BD10017460F /* Mediate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F8427251BD10017460F /* Mediate.swift */; };
+		813A2F8727251BDC0017460F /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F8627251BDC0017460F /* WorkoutView.swift */; };
+		813A2F8927251BED0017460F /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F8827251BEC0017460F /* Stats.swift */; };
+		813A2F8C27254CD10017460F /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F8B27254CD10017460F /* SessionPagingView.swift */; };
+		813A2F8F27254FE20017460F /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F8E27254FE20017460F /* MetricsView.swift */; };
+		813A2F91272559EC0017460F /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F90272559EC0017460F /* ControlsView.swift */; };
+		813A2F93272559FC0017460F /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F92272559FC0017460F /* PlayerView.swift */; };
+		813A2F96272560E20017460F /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F95272560E20017460F /* ElapsedTimeView.swift */; };
+		813A2F98272573040017460F /* SummaryMetrricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F97272573040017460F /* SummaryMetrricView.swift */; };
+		813A2F9B2725A6AD0017460F /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A2F9A2725A6AD0017460F /* WorkoutManager.swift */; };
+		817B1A5427239A63007D4AAA /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817B1A5327239A63007D4AAA /* HealthKit.framework */; };
+		8185682F2725CC010009AC87 /* Achivements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185682E2725CC010009AC87 /* Achivements.swift */; };
+		8EB90B1BB4C2164376CCCE24 /* Pods_PerFormance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD47574CB71377EB6063E228 /* Pods_PerFormance.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +96,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1C50A68665A45EC149238273 /* Pods-PerFormance WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerFormance WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-PerFormance WatchKit App/Pods-PerFormance WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		2B874D91F43F8B7106FA7932 /* Pods-PerFormance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerFormance.debug.xcconfig"; path = "Target Support Files/Pods-PerFormance/Pods-PerFormance.debug.xcconfig"; sourceTree = "<group>"; };
 		811F7CC32723939900208A06 /* PerFormance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerFormance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		811F7CC62723939900208A06 /* PerFormanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerFormanceApp.swift; sourceTree = "<group>"; };
 		811F7CC82723939900208A06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,13 +115,58 @@
 		811F7CEE2723939C00208A06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		811F7CF02723939C00208A06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		811F7CF12723939C00208A06 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8128B4EB2723B84A002AEAE9 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		8128B4ED2723B861002AEAE9 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		8128B4F02723E743002AEAE9 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		8128B4F8272441A8002AEAE9 /* BodySkeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySkeleton.swift; sourceTree = "<group>"; };
+		813A2F60272497240017460F /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		813A2F62272497FA0017460F /* StoreUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreUserDefaults.swift; sourceTree = "<group>"; };
+		813A2F6427249B270017460F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		813A2F6627249C6F0017460F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		813A2F6A27249FFB0017460F /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		813A2F6C2724A26D0017460F /* ContentWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentWrapper.swift; sourceTree = "<group>"; };
+		813A2F6E2724A2790017460F /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		813A2F702724A2860017460F /* NavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		813A2F722724B4520017460F /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		813A2F742724B4660017460F /* Wellness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wellness.swift; sourceTree = "<group>"; };
+		813A2F772724D82E0017460F /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		813A2F7B2724FFB60017460F /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		813A2F8427251BD10017460F /* Mediate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediate.swift; sourceTree = "<group>"; };
+		813A2F8627251BDC0017460F /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		813A2F8827251BEC0017460F /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		813A2F8B27254CD10017460F /* SessionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
+		813A2F8E27254FE20017460F /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		813A2F90272559EC0017460F /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		813A2F92272559FC0017460F /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		813A2F95272560E20017460F /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		813A2F97272573040017460F /* SummaryMetrricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryMetrricView.swift; sourceTree = "<group>"; };
+		813A2F9A2725A6AD0017460F /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		817B1A5127239A63007D4AAA /* PerFormance WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "PerFormance WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		817B1A5327239A63007D4AAA /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		8185682E2725CC010009AC87 /* Achivements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achivements.swift; sourceTree = "<group>"; };
+		91DF102DE2D989AB5DEE7547 /* Pods-PerFormance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerFormance.release.xcconfig"; path = "Target Support Files/Pods-PerFormance/Pods-PerFormance.release.xcconfig"; sourceTree = "<group>"; };
+		A8DDB7AB2E197109B9373BFD /* Pods-PerFormance WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerFormance WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-PerFormance WatchKit Extension/Pods-PerFormance WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		BDD0AEFBC04F81F80F858E00 /* Pods_PerFormance_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerFormance_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4484D337E00C7639244117 /* Pods_PerFormance_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerFormance_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3816B9DE9FB6AC6A6D7E2CE /* Pods-PerFormance WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerFormance WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-PerFormance WatchKit Extension/Pods-PerFormance WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		EF859CE1A3352560189ADF59 /* Pods-PerFormance WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerFormance WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-PerFormance WatchKit App/Pods-PerFormance WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		FD47574CB71377EB6063E228 /* Pods_PerFormance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerFormance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		217B338BE375FB2A18F06DD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C5A4B1A47F779206E3CA21 /* Pods_PerFormance_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		811F7CC02723939900208A06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB90B1BB4C2164376CCCE24 /* Pods_PerFormance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,19 +174,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817B1A5427239A63007D4AAA /* HealthKit.framework in Frameworks */,
+				69DA11A3296854FF23BD23EC /* Pods_PerFormance_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B9AE2FE44310760B080F629 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B874D91F43F8B7106FA7932 /* Pods-PerFormance.debug.xcconfig */,
+				91DF102DE2D989AB5DEE7547 /* Pods-PerFormance.release.xcconfig */,
+				1C50A68665A45EC149238273 /* Pods-PerFormance WatchKit App.debug.xcconfig */,
+				EF859CE1A3352560189ADF59 /* Pods-PerFormance WatchKit App.release.xcconfig */,
+				A8DDB7AB2E197109B9373BFD /* Pods-PerFormance WatchKit Extension.debug.xcconfig */,
+				D3816B9DE9FB6AC6A6D7E2CE /* Pods-PerFormance WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		811F7CBA2723939900208A06 = {
 			isa = PBXGroup;
 			children = (
+				8128B4EF2723E70F002AEAE9 /* Shared */,
 				811F7CC52723939900208A06 /* PerFormance */,
 				811F7CD52723939B00208A06 /* PerFormance WatchKit App */,
 				811F7CE02723939C00208A06 /* PerFormance WatchKit Extension */,
 				811F7CC42723939900208A06 /* Products */,
+				817B1A5227239A63007D4AAA /* Frameworks */,
+				0B9AE2FE44310760B080F629 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,10 +221,20 @@
 		811F7CC52723939900208A06 /* PerFormance */ = {
 			isa = PBXGroup;
 			children = (
+				813A2F6727249F990017460F /* Auth */,
+				813A2F6627249C6F0017460F /* Info.plist */,
+				8128B4F727244113002AEAE9 /* Utilities */,
+				8128B4F42723EE39002AEAE9 /* Stats */,
+				8128B4F32723EE2E002AEAE9 /* Form */,
+				8128B4F22723EE1B002AEAE9 /* Wellness */,
+				8128B4E82723B4B7002AEAE9 /* Navigation */,
 				811F7CC62723939900208A06 /* PerFormanceApp.swift */,
 				811F7CC82723939900208A06 /* ContentView.swift */,
+				8128B4EB2723B84A002AEAE9 /* VisualEffectBlur.swift */,
 				811F7CCA2723939B00208A06 /* Assets.xcassets */,
+				813A2F6427249B270017460F /* GoogleService-Info.plist */,
 				811F7CCC2723939B00208A06 /* Preview Content */,
+				8185682E2725CC010009AC87 /* Achivements.swift */,
 			);
 			path = PerFormance;
 			sourceTree = "<group>";
@@ -153,11 +258,8 @@
 		811F7CE02723939C00208A06 /* PerFormance WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				811F7CE12723939C00208A06 /* PerFormanceApp.swift */,
-				811F7CE32723939C00208A06 /* ContentView.swift */,
-				811F7CE52723939C00208A06 /* NotificationController.swift */,
-				811F7CE72723939C00208A06 /* NotificationView.swift */,
-				811F7CE92723939C00208A06 /* ComplicationController.swift */,
+				813A2F7D2725075A0017460F /* Domain */,
+				817B1A5127239A63007D4AAA /* PerFormance WatchKit Extension.entitlements */,
 				811F7CEB2723939C00208A06 /* Assets.xcassets */,
 				811F7CF02723939C00208A06 /* Info.plist */,
 				811F7CF12723939C00208A06 /* PushNotificationPayload.apns */,
@@ -174,6 +276,205 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8128B4E82723B4B7002AEAE9 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F702724A2860017460F /* NavBar.swift */,
+				813A2F6E2724A2790017460F /* MenuView.swift */,
+				813A2F6C2724A26D0017460F /* ContentWrapper.swift */,
+				8128B4ED2723B861002AEAE9 /* TabBarView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		8128B4EF2723E70F002AEAE9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F762724D80E0017460F /* Components */,
+				813A2F5F272496EF0017460F /* Main */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8128B4F22723EE1B002AEAE9 /* Wellness */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F742724B4660017460F /* Wellness.swift */,
+			);
+			path = Wellness;
+			sourceTree = "<group>";
+		};
+		8128B4F32723EE2E002AEAE9 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				8128B4F02723E743002AEAE9 /* FormView.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		8128B4F42723EE39002AEAE9 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F722724B4520017460F /* Stats.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		8128B4F727244113002AEAE9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F62272497FA0017460F /* StoreUserDefaults.swift */,
+				8128B4F8272441A8002AEAE9 /* BodySkeleton.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		813A2F5F272496EF0017460F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F7A2724FF3B0017460F /* Models */,
+				813A2F60272497240017460F /* Session.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		813A2F6727249F990017460F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F6A27249FFB0017460F /* Login.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		813A2F762724D80E0017460F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F772724D82E0017460F /* MenuButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		813A2F792724FF190017460F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F7B2724FFB60017460F /* Tabs.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		813A2F7A2724FF3B0017460F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		813A2F7D2725075A0017460F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F7F272507900017460F /* Views */,
+				813A2F7E2725076F0017460F /* Main */,
+				813A2F792724FF190017460F /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		813A2F7E2725076F0017460F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F992725A6840017460F /* Utilities */,
+				811F7CE12723939C00208A06 /* PerFormanceApp.swift */,
+				811F7CE32723939C00208A06 /* ContentView.swift */,
+				811F7CE52723939C00208A06 /* NotificationController.swift */,
+				811F7CE92723939C00208A06 /* ComplicationController.swift */,
+				811F7CE72723939C00208A06 /* NotificationView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		813A2F7F272507900017460F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F80272508AB0017460F /* Mediate */,
+				813A2F82272508E80017460F /* Workout */,
+				813A2F83272508FE0017460F /* Stats */,
+				813A2F942725601A0017460F /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		813A2F80272508AB0017460F /* Mediate */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F8427251BD10017460F /* Mediate.swift */,
+			);
+			path = Mediate;
+			sourceTree = "<group>";
+		};
+		813A2F82272508E80017460F /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F8627251BDC0017460F /* WorkoutView.swift */,
+				813A2F8A27254CA70017460F /* WorkoutSession */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		813A2F83272508FE0017460F /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F8827251BEC0017460F /* Stats.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		813A2F8A27254CA70017460F /* WorkoutSession */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F8B27254CD10017460F /* SessionPagingView.swift */,
+				813A2F8D27254FB50017460F /* SessionPages */,
+				813A2F97272573040017460F /* SummaryMetrricView.swift */,
+			);
+			path = WorkoutSession;
+			sourceTree = "<group>";
+		};
+		813A2F8D27254FB50017460F /* SessionPages */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F8E27254FE20017460F /* MetricsView.swift */,
+				813A2F90272559EC0017460F /* ControlsView.swift */,
+				813A2F92272559FC0017460F /* PlayerView.swift */,
+			);
+			path = SessionPages;
+			sourceTree = "<group>";
+		};
+		813A2F942725601A0017460F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F95272560E20017460F /* ElapsedTimeView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		813A2F992725A6840017460F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				813A2F9A2725A6AD0017460F /* WorkoutManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		817B1A5227239A63007D4AAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				817B1A5327239A63007D4AAA /* HealthKit.framework */,
+				FD47574CB71377EB6063E228 /* Pods_PerFormance.framework */,
+				BF4484D337E00C7639244117 /* Pods_PerFormance_WatchKit_App.framework */,
+				BDD0AEFBC04F81F80F858E00 /* Pods_PerFormance_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,10 +482,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 811F7CFC2723939C00208A06 /* Build configuration list for PBXNativeTarget "PerFormance" */;
 			buildPhases = (
+				8534824BFC94C2ACBB450036 /* [CP] Check Pods Manifest.lock */,
 				811F7CBF2723939900208A06 /* Sources */,
 				811F7CC02723939900208A06 /* Frameworks */,
 				811F7CC12723939900208A06 /* Resources */,
 				811F7CFB2723939C00208A06 /* Embed Watch Content */,
+				A0479FB0AD9A2019EA212995 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,8 +503,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 811F7CF82723939C00208A06 /* Build configuration list for PBXNativeTarget "PerFormance WatchKit App" */;
 			buildPhases = (
+				4D9A8EF9D2C09BA537FFDB10 /* [CP] Check Pods Manifest.lock */,
 				811F7CCF2723939B00208A06 /* Resources */,
 				811F7CF72723939C00208A06 /* Embed App Extensions */,
+				217B338BE375FB2A18F06DD7 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +522,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 811F7CF42723939C00208A06 /* Build configuration list for PBXNativeTarget "PerFormance WatchKit Extension" */;
 			buildPhases = (
+				1E8A6B4A4A5CA6AAA7B980DF /* [CP] Check Pods Manifest.lock */,
 				811F7CD82723939C00208A06 /* Sources */,
 				811F7CD92723939C00208A06 /* Frameworks */,
 				811F7CDA2723939C00208A06 /* Resources */,
@@ -278,6 +584,7 @@
 			files = (
 				811F7CCE2723939B00208A06 /* Preview Assets.xcassets in Resources */,
 				811F7CCB2723939B00208A06 /* Assets.xcassets in Resources */,
+				813A2F6527249B270017460F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,13 +607,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E8A6B4A4A5CA6AAA7B980DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerFormance WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D9A8EF9D2C09BA537FFDB10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerFormance WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8534824BFC94C2ACBB450036 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerFormance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0479FB0AD9A2019EA212995 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerFormance/Pods-PerFormance-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerFormance/Pods-PerFormance-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PerFormance/Pods-PerFormance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		811F7CBF2723939900208A06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8128B4F9272441A8002AEAE9 /* BodySkeleton.swift in Sources */,
+				813A2F6F2724A2790017460F /* MenuView.swift in Sources */,
+				813A2F732724B4520017460F /* Stats.swift in Sources */,
 				811F7CC92723939900208A06 /* ContentView.swift in Sources */,
 				811F7CC72723939900208A06 /* PerFormanceApp.swift in Sources */,
+				813A2F6D2724A26D0017460F /* ContentWrapper.swift in Sources */,
+				813A2F63272497FA0017460F /* StoreUserDefaults.swift in Sources */,
+				813A2F61272497240017460F /* Session.swift in Sources */,
+				813A2F712724A2860017460F /* NavBar.swift in Sources */,
+				8128B4F12723E743002AEAE9 /* FormView.swift in Sources */,
+				8128B4EE2723B861002AEAE9 /* TabBarView.swift in Sources */,
+				813A2F782724D82E0017460F /* MenuButton.swift in Sources */,
+				813A2F752724B4660017460F /* Wellness.swift in Sources */,
+				8185682F2725CC010009AC87 /* Achivements.swift in Sources */,
+				813A2F6B27249FFB0017460F /* Login.swift in Sources */,
+				8128B4EC2723B84A002AEAE9 /* VisualEffectBlur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,10 +722,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				811F7CE62723939C00208A06 /* NotificationController.swift in Sources */,
+				813A2F8F27254FE20017460F /* MetricsView.swift in Sources */,
+				813A2F8927251BED0017460F /* Stats.swift in Sources */,
+				813A2F8527251BD10017460F /* Mediate.swift in Sources */,
+				813A2F96272560E20017460F /* ElapsedTimeView.swift in Sources */,
+				813A2F9B2725A6AD0017460F /* WorkoutManager.swift in Sources */,
+				813A2F91272559EC0017460F /* ControlsView.swift in Sources */,
 				811F7CE42723939C00208A06 /* ContentView.swift in Sources */,
+				813A2F8727251BDC0017460F /* WorkoutView.swift in Sources */,
+				813A2F93272559FC0017460F /* PlayerView.swift in Sources */,
 				811F7CEA2723939C00208A06 /* ComplicationController.swift in Sources */,
 				811F7CE22723939C00208A06 /* PerFormanceApp.swift in Sources */,
+				813A2F98272573040017460F /* SummaryMetrricView.swift in Sources */,
+				813A2F8C27254CD10017460F /* SessionPagingView.swift in Sources */,
 				811F7CE82723939C00208A06 /* NotificationView.swift in Sources */,
+				813A2F7C2724FFB60017460F /* Tabs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,8 +869,10 @@
 		};
 		811F7CF52723939C00208A06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8DDB7AB2E197109B9373BFD /* Pods-PerFormance WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "PerFormance WatchKit Extension/PerFormance WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PerFormance WatchKit Extension/Preview Content\"";
@@ -461,9 +881,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PerFormance WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "PerFormance WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = PerFormance_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "access heart rate";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your data to used to display workout statistics";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Workouts tracked will be saved to HealthKit";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,8 +905,10 @@
 		};
 		811F7CF62723939C00208A06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3816B9DE9FB6AC6A6D7E2CE /* Pods-PerFormance WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "PerFormance WatchKit Extension/PerFormance WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PerFormance WatchKit Extension/Preview Content\"";
@@ -493,9 +917,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PerFormance WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "PerFormance WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = PerFormance_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "access heart rate";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your data to used to display workout statistics";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Workouts tracked will be saved to HealthKit";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -516,6 +942,7 @@
 		};
 		811F7CF92723939C00208A06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C50A68665A45EC149238273 /* Pods-PerFormance WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -542,6 +969,7 @@
 		};
 		811F7CFA2723939C00208A06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF859CE1A3352560189ADF59 /* Pods-PerFormance WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -569,6 +997,7 @@
 		};
 		811F7CFD2723939C00208A06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B874D91F43F8B7106FA7932 /* Pods-PerFormance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -578,9 +1007,12 @@
 				DEVELOPMENT_TEAM = 2HB3YHCHVH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = PerFormance/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access to evaluate form";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -600,6 +1032,7 @@
 		};
 		811F7CFE2723939C00208A06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91DF102DE2D989AB5DEE7547 /* Pods-PerFormance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -609,9 +1042,12 @@
 				DEVELOPMENT_TEAM = 2HB3YHCHVH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = PerFormance/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access to evaluate form";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
